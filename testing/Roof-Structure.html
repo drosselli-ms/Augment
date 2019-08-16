@@ -13,9 +13,8 @@
 	<a-scene stats embedded arjs='sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 3x3; maxDetectionRate: 30; canvasWidth: 240; canvasHeight: 180'>
 
 		<a-assets>
-			<a-asset-item id="Building" src="../models/GLTF/scene.gltf"></a-asset-item>
-      <a-asset-item id="Roof" src="../models/GLTF/Roof/scene.gltf"></a-asset-item>
-    </a-assets>
+      			<a-asset-item id="Roof" src="../models/GLTF/Roof/scene.gltf"></a-asset-item>
+   		</a-assets>
 	
 		<!-- handle hiro marker -->
 		<a-marker preset='hiro'>
@@ -52,8 +51,8 @@
 		<a-marker preset='custom' type='pattern' url='../markers/pattern-msLogo_grey.patt'>
             <a-entity
                 gltf-model="#Roof"
-                position="-0.5 0 0.5"
-				scale="0.002 0.002 0.002">
+                position="0 0 00"
+		scale="0.001 0.001 0.001">
             </a-entity>
 		</a-marker>
 
